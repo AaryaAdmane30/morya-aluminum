@@ -3,39 +3,59 @@ import { FaShieldAlt, FaTools, FaCheckCircle } from "react-icons/fa";
 function Home() {
   return (
     <div className="container" id="home">
-      {/* Hero */}
+
+      {/* HERO SECTION */}
       <div className="hero">
-        <img
-          src="https://images.unsplash.com/photo-1505691938895-1758d7feb511"
-          alt="Aluminum & Glass"
-        />
+       <img
+  src="https://images.pexels.com/photos/9901861/pexels-photo-9901861.jpeg"
+  alt="Aluminum & Glass Work"
+/>
+
+
+        <div className="hero-overlay"></div>
+
         <div className="hero-text">
-          <h1>Morya Aluminum & Glass</h1>
-          <p>Quality Work You Can Trust</p>
+          <h1 className="hero-title">
+            Morya Aluminum & Glass
+          </h1>
+
+          <p className="hero-subtitle">
+            Premium Quality • Elegant Designs • Trusted Workmanship
+          </p>
+
+          <button className="cta-btn">
+            Explore Our Services
+          </button>
         </div>
       </div>
 
-      {/* About / Features */}
+      {/* WHY CHOOSE US */}
       <div className="section" id="about">
-        <h2>Why Choose Us?</h2>
+        <h2 className="section-title">Why Choose Us?</h2>
+
         <div className="features">
+
           <div className="feature-box">
-            <FaShieldAlt size={40} />
+            <FaShieldAlt size={45} className="icon" />
             <h3>Strong & Durable</h3>
-            <p>High quality aluminum, glass & stainless material.</p>
+            <p>High-quality aluminum, premium glass & stainless steel.</p>
           </div>
+
           <div className="feature-box">
-            <FaTools size={40} />
-            <h3>Professional Work</h3>
-            <p>Expert workmanship with precision.</p>
+            <FaTools size={45} className="icon" />
+            <h3>Professional Craftsmanship</h3>
+            <p>Precision fitting with clean modern finishing.</p>
           </div>
+
           <div className="feature-box">
-            <FaCheckCircle size={40} />
+            <FaCheckCircle size={45} className="icon" />
             <h3>Trusted Service</h3>
-            <p>Reliable & customer-focused service.</p>
+            <p>Reliable work with honest pricing.</p>
           </div>
+
         </div>
       </div>
+
     </div>
   );
 }
