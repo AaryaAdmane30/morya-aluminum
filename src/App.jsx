@@ -20,7 +20,7 @@ function App() {
 
       <a
         className="whatsapp-float"
-        href="https://wa.me/911234567890"
+        href="https://wa.me/+91 98501 19396"
         target="_blank"
         rel="noopener noreferrer"
       >
