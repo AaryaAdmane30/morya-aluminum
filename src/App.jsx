@@ -18,14 +18,15 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      <a
-        className="whatsapp-float"
-        href="https://wa.me/+91 98501 19396"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FaWhatsapp size={26} /> Chat on WhatsApp
-      </a>
+     <a
+  className="whatsapp-float"
+  href="https://wa.me/919850119396"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <FaWhatsapp size={26} style={{ marginRight: "8px" }} /> Chat on WhatsApp
+</a>
+
 
       <footer style={{ textAlign: "center", padding: "20px", background: "#0b2c4d", color: "white" }}>
         © 2025 Morya Aluminum & Glass | Pune
